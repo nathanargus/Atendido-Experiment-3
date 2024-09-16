@@ -2,6 +2,8 @@
 
 This repository contains Python scripts for solving various programming problems in ECE2112. Below is an overview of each script included.
 
+---
+
 ### 1. Problem 1
 
 ##### This problem involves working with a CSV file that contains data about cars. The tasks include loading this data into a pandas DataFrame and performing basic data inspection. Specifically:
@@ -35,9 +37,11 @@ pd.concat([cars.head(), cars.tail()])
 
 **Output:**
 
+- The first five and last five rows of the `cars` DataFrame.
+
 ![image](https://github.com/user-attachments/assets/c4686d11-1e4f-4cd0-8ab7-16bb7f14a03c)
 
-
+---
 
 ### 2. Problem 2
 
@@ -81,5 +85,10 @@ print(selected_cars)
 ```
 
 **Output:**
+
+- The first five rows with odd-numbered columns of the cars DataFrame.
+- The row with the 'Model' of 'Mazda RX4'.
+- The number of cylinders in the car model 'Camaro Z28'.
+- The number of cylinders and gear type for the car models 'Mazda RX4 Wag', 'Ford Pantera L', and 'Honda Civic'.
 
 ![image](https://github.com/user-attachments/assets/9854be35-11f3-4c41-9a86-5f0a9e188122)
